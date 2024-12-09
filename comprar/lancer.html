@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/@flaticon/flaticon-uicons/css/all/all.css" rel="stylesheet">
+    <link rel="icon" href="imgs/logo.png">
+    <link rel="stylesheet" href="styles.css">
+    <title>TuningZone</title>
+</head>
+<body>
+    <header>
+        <img src="/imgs/logo.png" class="logo">
+
+        <input class="pesquisar" placeholder="  Digite a marca ou o modelo do carro">
+
+        <div class="botões">
+            
+            <a href="/login/login.html">
+                <button class="login">Login</button>
+            </a>
+
+            <a href="/login/register.html">
+                <button class="singup">Registar</button>
+            </a>
+
+            <button class="voltar" onclick="voltarAba()"> <i class="fi fi-rr-arrow-small-left"> Voltar</i></button>
+        </div>
+    </header>
+    
+    <div class="tudo">
+        <div class="esquerda">
+            
+            <h2>Mitsubishi Lancer - (2015)</h2>
+            <p>- publicado em 07/09/2023</p>
+            <img src="/imgs/Lancer.jpg" class="corvetão">
+                <div class="estrelas">
+                    <i class="fi fi-sr-star"></i>
+                    <i class="fi fi-sr-star"></i>
+                    <i class="fi fi-sr-star"></i>
+                    <i class="fi fi-sr-star"></i>
+                    <i class="fi fi-sr-star"></i>
+                </div>
+            <h2>R$55.900</h2>
+            <p>Em até 12x de R$5.000</p>
+
+            <div class="compras">
+                <button class="comprar"><i class="fi fi-sr-shopping-cart"></i> Comprar</button>
+                <button class="favorito"><i class="fi fi-sr-heart"></i> Favorito</button>
+                <button class="Simular"><i class="fi fi-ss-bank"></i> Simular Emprestimos</button>
+            </div>
+
+            <h2>Detalhes do carro</h2>
+            <p>- Marca: Mitsubishi</p>
+            <p>- Modelo: Lancer</p>
+            <p>- Ano: 2015</p>
+            <p>- Cor: Branco</p>
+            <p>- Combustivel: Gasolina</p>
+            <p>- KM: 150.000</p>
+        </div>
+
+        <div class="direita">
+            <h1>Sobre o carro:</h1>
+            <h3>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut illo veniam non praesentium velit reprehenderit eum nam culpa earum aspernatur, rem pariatur ratione. Aperiam tempora architecto reprehenderit, magnam fugit possimus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, voluptates accusamus quaerat expedita cumque sint dignissimos repudiandae voluptatibus itaque aspernatur nesciunt ullam beatae accusantium voluptas incidunt saepe amet libero facere?</h3>
+                <div class="card">
+                    <img src="/imgs/Eu.jpeg" class="perfil">
+                    <h2>Augusto</h2>
+                        <div class="informações">
+                            <a href="/perfil/perfil.html"><button>Ver Perfil</button></a>
+                            <button>Chat <i class="fi fi-sr-messages"></i></button>
+                        </div>
+                    <p>Há 5 anos na plataforma</p>
+                </div>
+                <div class="comentarios">
+                    <h1>Comentarios:</h1>
+                    <div class="comentarios2">
+                        <div class="seila">
+                            <img src="/imgs/Eu.jpeg" class="pessoas">
+                            <h3>Augusto</h3>
+                        </div>
+                        <p><i class="fi fi-rr-angle-small-right"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia exercitationem distinctio quidem aliquid, voluptatem eum ipsam nemo fuga inventore molestiae temporibus, perspiciatis necessitatibus laudantium fugiat aperiam illo dolorem. Autem, perspiciatis.</p>
+                    </div>
+
+                    <div class="comentarios2">
+                        <div class="seila">
+                            <img src="/imgs/Eu.jpeg" class="pessoas">
+                            <h3>Augusto</h3>
+                        </div>
+                        <p><i class="fi fi-rr-angle-small-right"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, eveniet consequatur quibusdam dolor officia quam obcaecati praesentium consectetur animi maiores! Quae non dolores omnis distinctio quasi cumque reiciendis blanditiis! Odit.</p>
+                    </div>
+                </div>
+        </div>    
+    </div>
+
+    <footer>
+        <p>Todos os direitos reservados © Augusto, 2024</p>
+    </footer>
+    
+    <script>
+        function voltarAba() {
+            window.location.href = '/index.html';
+        }
+    </script>
+</body>
+</html>

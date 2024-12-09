@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Poppins:wght@300;400&family=Quicksand:wght@300&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+    overflow-y: auto;
+    font-family: poppins;
+    background-color: #f4f4f4;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    padding: 0 30px;
+    user-select: none;
+}
+
+.logo {
+    width: 85px;
+    height: 85px;
+    user-select: none;
+    cursor: pointer;
+}
+
+.pesquisar {
+    width: 500px;
+    height: 40px;
+    border: 0px solid rgb(184, 184, 184);
+    border-radius: 15px;
+    color: black;
+    background-color: rgb(184, 184, 184);
+    outline: none;
+    user-select: none;
+}
+
+.botões {
+    display: flex;	
+    flex-direction: row;
+    gap: 20px; 
+    user-select: none;
+}
+
+button {
+    width: 80px;
+    height: 40px;
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: all 0.3s;
+    user-select: none;
+    align-items: center;
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+.singup:hover {
+    background-color: rgb(226, 226, 226);
+}
+
+.login {
+    width: 80px;
+    height: 40px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    background-color: transparent;
+    user-select: none;
+}
+
+.login:hover {
+    background-color: rgb(226, 226, 226);
+}
+
+.esquerda {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    gap: 5px;
+}
+
+.direita {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-left: 30px;
+    gap: 20px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    height: 300px;
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+.informações {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    gap: 10px;
+    user-select: none;
+}
+
+.perfil {
+    width: 100px;
+    border-radius: 100%;
+    user-select: none;
+    cursor: pointer;
+    rotate: -90deg;
+}
+
+.tudo {
+    display: flex;
+    flex-direction: space-between;
+    user-select: none;
+}
+
+.corvetão {
+    width: 500px;
+    user-select: none;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.compras {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    gap: 10px;
+    user-select: none;
+}
+
+.Simular {
+    width: 180px;
+}
+
+.estrelas {
+    color: rgb(85, 0, 75);
+}
+
+.fi:hover {
+    color: black;
+    cursor: pointer;
+}
+
+.pessoas {
+    width: 50px;
+    border-radius: 100%;
+    margin-top: 10px;
+    rotate: -90deg;
+}
+
+.seila {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+footer {
+    background-color: #333;
+    position: relative;
+    margin-top: 20px;
+    color: white;
+    text-align: center;
+    padding: 5px 0;
+    bottom: 0;
+    width: 100%;
+    height: 30px;
+    user-select: none;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/@flaticon/flaticon-uicons/css/all/all.css" rel="stylesheet">
+    <link rel="icon" href="//imgs/logo.png">
+    <link rel="stylesheet" href="styles.css">
+    <title>TuningZone</title>
+</head>
+<body>
+    <div class="card">
+        <div class="esquerda">
+            <button class="voltar" onclick="voltarAba()"> <i class="fi fi-rr-arrow-small-left"></i></button>
+        </div>
+
+        <div class="centro">
+            <h1>Login</h1>
+            <input type="email" placeholder="Email">
+            <input type="password" placeholder="Senha">
+            <p><a class="esqueci" href="#">Esqueci minha senha</a></p>
+            <button>Entrar</button>
+            <div class="linha">
+                <p>não tem uma conta? <a href="register.html">Criar uma conta</a></p>
+            </div>
+        </div>
+
+        <div class="direita">
+            <img src="fundo.gif" class="fundo">
+        </div>
+    </div>
+
+    <script>
+        function voltarAba() {
+            window.location.href = '/index.html';
+        }
+    </script>
+</body>
+</html>

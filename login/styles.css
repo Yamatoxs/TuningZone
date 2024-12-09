@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Poppins:wght@300;400&family=Quicksand:wght@300&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow: hidden; 
+    font-family: poppins;
+    background-color: rgb(255, 255, 255);
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    height: 85%;
+    background-color: black;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.30);
+    color: white;
+    overflow: hidden;
+    position: relative;
+}
+
+.esquerda {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    z-index: 1;
+}
+
+
+.direita {
+    display: flex;
+    justify-content: flex-end;  
+    align-items: center;
+    position: relative;
+}
+
+.esquerda p, .direita p {
+    margin: 0;
+}
+
+.fundo {
+    width: 80%;
+    height: 80%;
+    object-fit: cover; 
+    border-radius: 10px;
+    opacity: 0.7;
+}
+
+.voltar {
+    width: 80px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    border: 1.8px solid rgb(255, 255, 255);
+    cursor: pointer;
+    align-items: center;
+    font-size: 18px;
+    margin-left: 30px;
+    margin-top: -500px;
+}
+
+.centro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+    height: 100%;
+    gap: 20px;
+    z-index: 1;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+input {
+    width: 70%;
+    height: 40px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: 1.8px solid white;
+    padding-left: 20px;
+    padding-right: 20px;
+    outline: none;
+}
+
+.esqueci {
+    margin-left: -270px;
+    text-decoration: none;
+    color: #20b3b1;
+    font-weight: bold;
+}
+
+.esqueci:hover {
+    color: #fff;
+}
+
+.ajuda {
+    margin-left: -290px;
+    text-decoration: none;
+    color: #20b3b1;
+    font-weight: bold;
+}
+
+.ajuda:hover {
+    color: #fff;
+}
+
+button {
+    width: 20%;
+    height: 5%;
+    border-radius: 20px;
+    color: white;
+    background-color: #20b3b1;
+    padding: 5px 0;
+    border: 1.8px solid #20b3b1;
+    outline: none;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+.linha {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #20b3b1;
+    font-weight: bold;
+    bottom: 0;
+}
+
+a:hover {
+    color: #fff;
+}
+
+.logo {
+    width: 85px;
+    height: 85px;
+    user-select: none;
+    cursor: pointer;
+    filter: invert(1);
+}
